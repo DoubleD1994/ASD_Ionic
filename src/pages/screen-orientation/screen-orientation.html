@@ -1,0 +1,20 @@
+<ion-header>
+    <ion-navbar color="dark">
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Screen Orientation</ion-title>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <button full ion-button color="secondary" (click)="currentOrientation()">Current Orientation</button>
+  <br>
+  <button full ion-button color="primary" (click)="lockPortraitOrientation()">Lock Portrait Orientation</button>
+  <br>
+  <button full ion-button color="assertive" (click)="lockLandscapeOrientation()">Lock Landscape Orientation</button>
+  <br>
+  <button full ion-button color="bright" (click)="unlockOrientation()">Unlock Orientation</button>
+
+</ion-content>

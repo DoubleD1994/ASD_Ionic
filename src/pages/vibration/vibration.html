@@ -1,0 +1,16 @@
+<ion-header>
+    <ion-navbar color="dark">
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Vibration</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Vibrate the device once for 2 seconds</h3>
+  <button full ion-button color="secondary" (click)="vibrateDevice()">Vibrate Once</button>
+  <br/>
+  <h3>Vibrate for a second, pause for a second, vibrate for a second</h3>
+  <button full ion-button color="primary" (click)="vibratePause()">Vibrate Pause Vibrate</button>
+</ion-content>

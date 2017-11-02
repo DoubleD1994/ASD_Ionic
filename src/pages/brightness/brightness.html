@@ -1,0 +1,16 @@
+<ion-header>
+    <ion-navbar color="dark">
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Brightness</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button full ion-button color="light" (click)="highBrightness()">Bright</button>
+  <br/>
+  <button full ion-button color="medium" (click)="mediumBrightness()">Medium</button>
+  <br/>
+  <button full ion-button color="dark" (click)="lowBrightness()">Dull</button>
+</ion-content>
